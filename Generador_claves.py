@@ -1,4 +1,4 @@
-# Contraseñas aleatorias
+# Contraseñas aleatorias v1.0
 import random
 import string
 # letras sin la l, I, O, para no confundir y números sin el 0
