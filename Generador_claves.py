@@ -8,10 +8,13 @@ caracteres = letras + numeros
 
 def generador(longitud, cantidad):
     print ("\n", "Aquí tienes ", cantidad, " claves de ", longitud, " caracteres:", "\n")
-    for x in range(cantidad):
+    x = 1
+    While x < cantidad:
         clave = ''.join(random.choice(caracteres) for i in range(longitud))
-        if 1==2:
+        if (any(map(str.isdigit, clave))):
             print (clave)
+            x=x+1
+                    
         #return clave
 
 longitud_claves = int (input("Introduzca la longitud de las claves: "))
