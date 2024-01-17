@@ -10,7 +10,8 @@ def generador(longitud, cantidad):
     print ("\n", "Aquí tienes ", cantidad, " claves de ", longitud, " caracteres:", "\n")
     for x in range(cantidad):
         clave = ''.join(random.choice(caracteres) for i in range(longitud))
-        print (clave)
+        if 1==2:
+            print (clave)
         #return clave
 
 longitud_claves = int (input("Introduzca la longitud de las claves: "))
