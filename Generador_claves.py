@@ -21,3 +21,4 @@ longitud_claves = int (input("Introduzca la longitud de las claves: "))
 cantidad_claves = int (input("Introduzca la cantidad de claves a generar: "))
 generador(longitud_claves, cantidad_claves)
 cerrar = input("\n" "Aceptar")
+# Fin programa y prueba GitHub
